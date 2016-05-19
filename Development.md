@@ -21,3 +21,5 @@ Programs must start simple and grow as needed.
 *   [Makefile](Makefile) - Makefile for the project.
 
 *   utils - All useful utilities are here.
+
+*   samples - Sample ToyLisp code.
