@@ -4,4 +4,4 @@
 Project status is updated here regularly.
 
 ### 05/19/16
-ToyLisp is defined in the file[ToyLisp.md](ToyLisp.md)
+ToyLisp is defined in the file [ToyLisp.md](ToyLisp.md).
