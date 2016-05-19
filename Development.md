@@ -1,10 +1,13 @@
-## ToyLisp design & development
+## ToyLisp development
 
 All design and development decisions for the **ToyLisp** are documented here.
 
 ### Philosophy
 
 Programs must start simple and grow as needed.
+
+### ToyLisp compiler architecture
+
 
 ### Project structure
 
