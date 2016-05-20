@@ -9,9 +9,8 @@ libraries let programmers use ToyLisp as a fast scripting/prototyping language.
 Think of ToyLisp as a Python with lisp syntax.
 
 The fundamental program building blocks are objects, methods, functions,
-values(numerics, strings, collections etc..), symbols, keywords, special forms,
-class definitions etc.. Programs can be composed of these elements in
-any arbitrary way seems fit for the task at hand.
+symbols, keywords, special forms, class definitions etc.. Programs can be
+composed of these elements in any arbitrary way seems fit for the task at hand.
 
 These building blocks are represented in syntax as forms such as ids, s-exps,
 literals, special forms etc... These forms, when parsed and evaluated, result
