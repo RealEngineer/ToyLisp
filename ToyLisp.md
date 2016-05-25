@@ -24,11 +24,7 @@ compiler/interpreter to parse and evaluate the forms.
     absence of a value.
     `nil` special form produces the NIL value. e.g., (nil)
     
-1.  **Identifiers** - Identifiers or ids are like variables, used to refer to other
-    values. Identifier regex is [a-zA-Z][a-zA-Z\-]*
-    An example id is 'valid-pair-Count2' (without quotes)
-
-2.  **Symbols**     - Not supported at the moment.
+1.  **Symbols** - Symbols are like variables, used to refer to ToyLisp objects.
 
 3.  **Keywords**    - Keywords are used liked enums in other languages. They
     improve readability of programs. Keyword regex is :[a-zA-Z]+
@@ -82,9 +78,9 @@ module scope. Inside method bodies, local scopes can be arbitrarily nested.
 Scope graph given below is a graphical description of how names are resolved at
 various points in code.
 
-Module scope ----> Object scope ----> Method local scope -----> Method loc...
-            |----> Function local scope -----> ..... ----> Function local scope
-            |----> Class scope (optional, if necessary)
+*   Module scope ----> Object scope ----> Method local scope -----> Method loc...
+*   Module scope ----> Function local scope -----> ..... ----> Function local scope
+*   Module scope ----> Class scope (optional, if necessary)
 
 ### OOP
 
